@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5885B0C0254397F000006BE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5885B0BF254397F000006BE3 /* AppDelegate.swift */; };
-		5885B0C2254397F000006BE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5885B0C1254397F000006BE3 /* SceneDelegate.swift */; };
-		5885B0C4254397F000006BE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5885B0C3254397F000006BE3 /* ViewController.swift */; };
-		5885B0C7254397F000006BE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5885B0C5254397F000006BE3 /* Main.storyboard */; };
-		5885B0C9254397F100006BE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5885B0C8254397F100006BE3 /* Assets.xcassets */; };
-		5885B0CC254397F100006BE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5885B0CA254397F100006BE3 /* LaunchScreen.storyboard */; };
 		5885B0D7254397F200006BE3 /* FlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5885B0D6254397F200006BE3 /* FlixTests.swift */; };
 		5885B0E2254397F200006BE3 /* FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5885B0E1254397F200006BE3 /* FlixUITests.swift */; };
+		5885B0FF25439EC900006BE3 /* Services in Resources */ = {isa = PBXBuildFile; fileRef = 5885B0F925439EC800006BE3 /* Services */; };
+		5885B10025439EC900006BE3 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 5885B0FA25439EC800006BE3 /* Resources */; };
+		5885B10125439EC900006BE3 /* Controllers in Resources */ = {isa = PBXBuildFile; fileRef = 5885B0FB25439EC800006BE3 /* Controllers */; };
+		5885B10225439EC900006BE3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5885B0FC25439EC800006BE3 /* Info.plist */; };
+		5885B10325439EC900006BE3 /* Views in Resources */ = {isa = PBXBuildFile; fileRef = 5885B0FD25439EC900006BE3 /* Views */; };
+		5885B10425439EC900006BE3 /* DataModels in Resources */ = {isa = PBXBuildFile; fileRef = 5885B0FE25439EC900006BE3 /* DataModels */; };
+		5885B10925439FE900006BE3 /* walkthrough.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5885B10825439FE900006BE3 /* walkthrough.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +37,19 @@
 
 /* Begin PBXFileReference section */
 		5885B0BC254397F000006BE3 /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5885B0BF254397F000006BE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5885B0C1254397F000006BE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5885B0C3254397F000006BE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5885B0C6254397F000006BE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5885B0C8254397F100006BE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5885B0CB254397F100006BE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5885B0CD254397F100006BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5885B0D2254397F200006BE3 /* FlixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5885B0D6254397F200006BE3 /* FlixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixTests.swift; sourceTree = "<group>"; };
 		5885B0D8254397F200006BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5885B0DD254397F200006BE3 /* FlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5885B0E1254397F200006BE3 /* FlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixUITests.swift; sourceTree = "<group>"; };
 		5885B0E3254397F200006BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5885B0F925439EC800006BE3 /* Services */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Services; sourceTree = "<group>"; };
+		5885B0FA25439EC800006BE3 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		5885B0FB25439EC800006BE3 /* Controllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controllers; sourceTree = "<group>"; };
+		5885B0FC25439EC800006BE3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5885B0FD25439EC900006BE3 /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
+		5885B0FE25439EC900006BE3 /* DataModels */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DataModels; sourceTree = "<group>"; };
+		5885B10825439FE900006BE3 /* walkthrough.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = walkthrough.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +100,13 @@
 		5885B0BE254397F000006BE3 /* Flix */ = {
 			isa = PBXGroup;
 			children = (
-				5885B0BF254397F000006BE3 /* AppDelegate.swift */,
-				5885B0C1254397F000006BE3 /* SceneDelegate.swift */,
-				5885B0C3254397F000006BE3 /* ViewController.swift */,
-				5885B0C5254397F000006BE3 /* Main.storyboard */,
-				5885B0C8254397F100006BE3 /* Assets.xcassets */,
-				5885B0CA254397F100006BE3 /* LaunchScreen.storyboard */,
-				5885B0CD254397F100006BE3 /* Info.plist */,
+				5885B10825439FE900006BE3 /* walkthrough.gif */,
+				5885B0FB25439EC800006BE3 /* Controllers */,
+				5885B0FE25439EC900006BE3 /* DataModels */,
+				5885B0FC25439EC800006BE3 /* Info.plist */,
+				5885B0FA25439EC800006BE3 /* Resources */,
+				5885B0F925439EC800006BE3 /* Services */,
+				5885B0FD25439EC900006BE3 /* Views */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -231,9 +232,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5885B0CC254397F100006BE3 /* LaunchScreen.storyboard in Resources */,
-				5885B0C9254397F100006BE3 /* Assets.xcassets in Resources */,
-				5885B0C7254397F000006BE3 /* Main.storyboard in Resources */,
+				5885B10225439EC900006BE3 /* Info.plist in Resources */,
+				5885B10025439EC900006BE3 /* Resources in Resources */,
+				5885B0FF25439EC900006BE3 /* Services in Resources */,
+				5885B10125439EC900006BE3 /* Controllers in Resources */,
+				5885B10425439EC900006BE3 /* DataModels in Resources */,
+				5885B10325439EC900006BE3 /* Views in Resources */,
+				5885B10925439FE900006BE3 /* walkthrough.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +263,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5885B0C4254397F000006BE3 /* ViewController.swift in Sources */,
-				5885B0C0254397F000006BE3 /* AppDelegate.swift in Sources */,
-				5885B0C2254397F000006BE3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +296,6 @@
 			targetProxy = 5885B0DE254397F200006BE3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		5885B0C5254397F000006BE3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5885B0C6254397F000006BE3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5885B0CA254397F100006BE3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5885B0CB254397F100006BE3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5885B0E4254397F200006BE3 /* Debug */ = {
@@ -470,7 +453,6 @@
 		5885B0EA254397F200006BE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FlixTests/Info.plist;
@@ -491,7 +473,6 @@
 		5885B0EB254397F200006BE3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FlixTests/Info.plist;
@@ -512,7 +493,6 @@
 		5885B0ED254397F200006BE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FlixUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -531,7 +511,6 @@
 		5885B0EE254397F200006BE3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FlixUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
